@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+.sm-head{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color:  #BFBFBF;
+    }
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.color{
+    color: #96BA3C;
+}
+.getstart-btn {
+    width: 207px;
+    height: 50px;
+    border: 1px solid #A6CA44;
+    background-color: #A6CA44;
+    color: #ffffff;
+}
+.talk-btn {
+    width: 115px;
+    height: 50px;
+    border: 1px solid #3f7ddb;
+    background-color: transparent;
+    color: #3F7DDB;
+
+}
+.mt-4{
+    margin-top: 1rem;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .p-4{
+    padding: 25px;
+  }
+  .btn {
+    font-size: 16.5px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 4px 24px 4px 24px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif !important;
+   
+}
+.btn:active{
+    transition: all 0.15s ease-in-out !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) inset !important;
+}
+.align-items-end{
+    align-items: end;
+}
+.gap-3{
+    gap: 12px;
+}
+.justify-content-end{
+    justify-content: end ;
+}
+.flex-column{
+    flex-direction: column;
+}
+@media screen and (max-width:600px){
+    .main-title{
+        font-size: 39px;
+    }
+   
+}

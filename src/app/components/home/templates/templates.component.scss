@@ -1,0 +1,20 @@
+.main{
+    margin: 4rem 10%;
+}
+.main-title{
+    width: 685px;
+}
+p{
+font-size: 18px;
+font-weight: 300;
+line-height: 24px;
+margin: 0px;
+}
+.d-flex{
+    flex-wrap: wrap;
+}
+@media screen and (max-width:1024){
+    .main{
+        margin: 4rem 1%;
+    } 
+}

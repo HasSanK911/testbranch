@@ -1,0 +1,87 @@
+.container {
+    margin: 0px 10%;
+    text-align: center;
+    background: #F7F7F7;
+    padding:40px 20px;
+    border-radius: 15px;
+  }
+  
+ 
+  h3{
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+
+  }
+  p{
+font-size: 18px;
+font-weight: 300;
+line-height: 22px;
+max-width: 291px;
+  }
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .feature {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid  #F0F0EF
+  }
+  
+  .cta-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .btn {
+    font-size: 16.5px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 4px 24px 4px 24px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif !important;
+
+}
+.icon{
+    width: 66px;
+    height: 66px;
+}
+  .feature {
+    flex: 0 1 calc(33.33% - 20px); 
+  }
+  
+  @media (max-width: 992px) and (min-width:600px) {
+    .feature {
+      flex: 0 1 calc(48% - 10px) !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .features-grid {
+      justify-content: center;
+    }
+    .feature {
+      flex: 0 1 100%; 
+    }
+  }
+  @media screen and (max-width:1024px) {
+    .container {
+        margin: 0rem 1% !important;
+    }
+}

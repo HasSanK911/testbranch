@@ -1,0 +1,21 @@
+<header>
+  <nav class="navbar">
+      <div class="logo">
+          <img src="logo.png" alt="logo">
+      </div>
+      <div class="menu-icon" (click)="toggleMenu()">
+          <i class="fa fa-bars"></i> <!-- Font Awesome bars icon -->
+      </div>
+      <div class="nav-container" [ngClass]="{ 'nav-open': isMenuOpen }">
+          <ul class="nav-links">
+              <li><a routerLink="/">Home</a></li>
+              <li><a routerLink="/features">Features and Pricing</a></li>
+              <li><a routerLink="/contact">Contact us</a></li>
+          </ul>
+          <div class="auth-buttons">
+              <button class="login-btn">Log in</button>
+              <button class="signup-btn">Sign up</button>
+          </div>
+      </div>
+  </nav>
+</header>

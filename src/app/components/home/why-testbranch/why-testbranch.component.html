@@ -1,0 +1,16 @@
+<div class="container">
+    <span class="sm-head">RELIABLE DIGITAL PROPERTY</span>
+    <h1 class="main-title">Why <span class="color">TestBranch</span></h1>
+    <div class="features-grid">
+      <div class="feature" *ngFor="let feature of features">
+          <h3>{{ feature.title }}</h3>
+        <img class="icon" src="{{feature.icon}}">
+        <div class="d-flex justify-content-center mt-4">
+            <p>{{ feature.description }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mt-4">
+        <button class="btn getstart-btn">Get Started - it's free</button>
+    </div>
+  </div>
